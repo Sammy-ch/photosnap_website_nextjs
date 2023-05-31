@@ -4,7 +4,7 @@ import { MantineProvider } from "@mantine/core";
 
 const Provider = ({ children }) => {
     return (
-        <MantineProvider theme={{ colorScheme: "dark" }}>
+        <MantineProvider>
             {children}
         </MantineProvider>
 
