@@ -12,9 +12,9 @@ import arrow from "public/assets/shared/desktop/arrow.svg"
 
 const Footer = () => {
   return (
-    <footer className='px-[165px] py-[64px] w-full'>
+    <footer className='px-[165px] lg:px-[40px] py-[64px] w-full'>
         <div className='container'>
-                <div className='footer_logo'>
+                <div className='footer_logo fsm:pb-[32px]'>
                     <Image src={Logo} alt='logo' />
                 </div>
                         <div className='social_links flex gap-[14px] '>
@@ -24,16 +24,16 @@ const Footer = () => {
                             <Link href={"/"}><Image src={Pinterest_logo} alt='pt_logo' /></Link>
                             <Link href={"/"}><Image src={Instagram_logo} alt='Insta_logo' /></Link>
                         </div>
-                    <div className="nav_links flex flex-col gap-[20px]">
+                    <div className="nav_links flex  fsm:pb-10 sm:flex-row fsm:flex-row gap-[20px]">
                         <Link href={"/"}>HOME</Link>
                         <Link href={"/stories"}>STORIES</Link>
                         <Link href={"/features"}>FEATURES</Link>
                         <Link href={"/pricing"}>PRICING</Link>
                     </div>
-                <div className="cpy-invite flex flex-col text-left items-end gap-[86px]">
-                    <div className='flex flex-row gap-[16px]'><button>GET AN INVITE</button><Image src={arrow}/></div>
+                {/* <div className="cpy-invite flex flex-col text-left items-end gap-[86px]"> */}
+                    <div className='cpy-invite flex flex-row gap-[16px]'><button>GET AN INVITE</button><Image src={arrow}/></div>
                     <span className='cpy'>Copyright 2019. All Rights Reserved</span>
-                </div>
+                {/* </div> */}
         </div>
 
     </footer>
