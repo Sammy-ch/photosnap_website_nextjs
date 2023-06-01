@@ -12,7 +12,7 @@ const CTA = () => {
         </p>
 
           
-        <div className='flex flex-row gap-[16px] justify-end'>
+        <div className='flex flex-row gap-[16px] hover:underline justify-end'>
                 <button className='text-xs'><b>GET AN INVITE</b></button>
                 <Image src={arrow} />
         </div>

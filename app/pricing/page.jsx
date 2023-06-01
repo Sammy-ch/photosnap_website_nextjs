@@ -10,7 +10,6 @@ import CTA from '@/components/CTA';
 import { useState } from 'react';
 
 const Pricing = () => {
-
   const [checked, setChecked] = useState(false);
 
   return (
@@ -45,7 +44,7 @@ const Pricing = () => {
                             photographers.</p>
                         </div>
                         <div class="plan__rate">
-                          <h1 class="basic-price">$19.00</h1>
+                          <h1 class="basic-price">{!checked ? "$19.00" : "$190.00"} </h1>
                           <p class="time">per month</p>
                         </div>
                         <a class="btn btn--black">Pick Plan</a>
@@ -57,7 +56,7 @@ const Pricing = () => {
                             professionals.</p>
                         </div>
                         <div class="plan__rate">
-                          <h1 class="pro-price">$39.00</h1>
+                          <h1 class="pro-price">{!checked ? "$39.00" : "$390.00"}</h1>
                           <p class="time">per month</p>
                         </div>
                         <a class="btn btn--white">Pick Plan</a>
@@ -69,7 +68,7 @@ const Pricing = () => {
                             for business owners.</p>
                         </div>
                         <div class="plan__rate">
-                          <h1 class="business-price">$99.00</h1>
+                          <h1 class="business-price">{!checked ? "$99.00" : "$990.00"}</h1>
                           <p class="time">per month</p>
                         </div>
                         <a class="btn btn--black">Pick Plan</a>

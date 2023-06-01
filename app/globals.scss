@@ -386,6 +386,12 @@ h1{
     @include respond-below('lg') {
         margin-top: 6.4rem;
     }
+
+
+    h2{
+      font-size: var(--fs-800);
+      font-weight: var(--fw-bold);
+    }
 }
 
 .plans {

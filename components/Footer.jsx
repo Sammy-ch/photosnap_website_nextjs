@@ -25,13 +25,13 @@ const Footer = () => {
                             <Link href={"/"}><Image src={Instagram_logo} alt='Insta_logo' /></Link>
                         </div>
                     <div className="nav_links flex  fsm:pb-10 sm:flex-row fsm:flex-row gap-[20px]">
-                        <Link href={"/"}>HOME</Link>
-                        <Link href={"/stories"}>STORIES</Link>
-                        <Link href={"/features"}>FEATURES</Link>
-                        <Link href={"/pricing"}>PRICING</Link>
+                        <Link href={"/"}  className='hover:text-gray-700'>HOME</Link>
+                        <Link href={"/stories"} className='hover:text-gray-700'>STORIES</Link>
+                        <Link href={"/features"} className='hover:text-gray-700'>FEATURES</Link>
+                        <Link href={"/pricing"} className='hover:text-gray-700'>PRICING</Link>
                     </div>
                 {/* <div className="cpy-invite flex flex-col text-left items-end gap-[86px]"> */}
-                    <div className='cpy-invite flex flex-row gap-[16px]'><button>GET AN INVITE</button><Image src={arrow}/></div>
+                    <div className='cpy-invite flex flex-row gap-[16px] hover:underline'><button>GET AN INVITE</button><Image src={arrow} className='h-[16px] relative top-1'/></div>
                     <span className='cpy'>Copyright 2019. All Rights Reserved</span>
                 {/* </div> */}
         </div>

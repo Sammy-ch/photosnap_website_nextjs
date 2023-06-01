@@ -28,7 +28,7 @@ const Home = () => {
             <div>
               <h1 className='pb-[21px]'>CREATE AND SHARE YOUR PHOTO STORIES</h1>
               <p className='pb-[48px]'>Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.</p>
-              <div className='flex gap-[16px]'><button>GET AN INVITE</button> <Image src={arrow} alt='arrow_btn'/></div>
+              <div className='flex gap-[16px] hover:underline'><button>GET AN INVITE</button> <Image src={arrow} alt='arrow_btn' className='h-[16px] relative top-1'/></div>
             </div>
           </div>
       </div>
@@ -47,7 +47,7 @@ const Home = () => {
             <div>
               <h1 className='pb-[21px]'>BEAUTIFUL STORIES EVERY TIME</h1>
               <p className='pb-[48px]'>We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.</p>
-              <div className='flex gap-[16px]'><button>VIEW THE STORIES</button> <Image src={arrow} alt='arrow_btn'/></div>
+              <div className='flex gap-[16px] hover:underline'><button>VIEW THE STORIES</button> <Image src={arrow} alt='arrow_btn' /></div>
             </div>
       </div>
     </section>
@@ -57,7 +57,7 @@ const Home = () => {
             <div>
               <h1 className='pb-[21px]'>DESIGNED FOR EVERYONE</h1>
               <p className='pb-[48px]'>Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it. </p>
-              <div className='flex gap-[16px]'><button>VIEW THE STORIES</button> <Image src={arrow} alt='arrow_btn'/></div>
+              <div className='flex gap-[16px] hover:underline'><button>VIEW THE STORIES</button> <Image src={arrow} alt='arrow_btn' /></div>
             </div>
       </div>
 

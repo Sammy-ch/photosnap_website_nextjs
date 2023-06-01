@@ -15,13 +15,13 @@ const Navbar = () => {
     <div className='grid grid-flow-col md:px-[40px] px-[165px] py-[28px]  justify-between items-center'>
         <Image src={Logo} alt="Logo" /> 
 
-        <nav className='flex gap-[37px] sm:hidden'>
-            <Link href={"/stories"}>STORIES</Link>
-            <Link href={"/features"}>FEATURES</Link>
-            <Link href={"/pricing"}>PRICING</Link>
+        <nav className='flex  gap-[37px] sm:hidden'>
+            <Link href={"/stories"} className='hover:text-gray-300'>STORIES</Link>
+            <Link href={"/features"} className='hover:text-gray-300'>FEATURES</Link>
+            <Link href={"/pricing"} className='hover:text-gray-300'>PRICING</Link>
         </nav>
 
-        <button className='nav-btn sm:hidden'>GET AN INVITE</button>
+        <button className='nav-btn sm:hidden hover:text-black hover:bg-gray-300'>GET AN INVITE</button>
         <Burger opened={opened} onClick={toggle} aria-label={label} className='hidden sm:flex relative top-2.5'/>    
 
         {/* Mobile Navbar */}
@@ -34,9 +34,9 @@ const Navbar = () => {
         rounded-lg bg-white py-[32px]'
          >
             <nav className='flex items-center flex-col justify-center gap-[20px] text-xl '>
-            <Link href={"/stories"}>STORIES</Link>
-             <Link href={"/features"}>FEATURES</Link>
-             <Link href={"/pricing"}>PRICING</Link>
+            <Link href={"/stories"} className='hover:text-gray-300'>STORIES</Link>
+            <Link href={"/features"} className='hover:text-gray-300'>FEATURES</Link>
+            <Link href={"/pricing"} className='hover:text-gray-300'>PRICING</Link>
               <hr />
               <button className='bg-black text-white w-[310px] h-[48px] '>GET AN INVITE</button>
             </nav>
