@@ -17,7 +17,13 @@ import responsive from "public/assets/features/desktop/responsive.svg";
 import { Grid } from '@mantine/core';
 import { motion } from 'framer-motion';
 
+
+
 const Home = () => {
+
+
+
+
   return (
    <main className='max-h-full w-full'>
 
