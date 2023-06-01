@@ -43,7 +43,7 @@ const Stories = () => {
       <section className='aws_stories'>
         <Grid gutter={0}>
           <Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left'>
-            <Image src={voyage_img} className='w-full'/>
+            <Image src={voyage_img} className='w-full h-full'/>
             <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
               <span>April 16th 2020</span>
               <text>The Mountains</text>
@@ -56,9 +56,206 @@ const Stories = () => {
               </div>
             </div>
           </Grid.Col>
-          <Grid.Col sm={12} md={6} lg={3}><Image src={mountain} className='w-full'/></Grid.Col>
-          <Grid.Col sm={12} md={6} lg={3}><Image src={sunset_img} className='w-full'/></Grid.Col>
-          <Grid.Col sm={12} md={6} lg={3}><Image src={voyage_img} className='w-full'/></Grid.Col>
+
+          <Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left'>
+            <Image src={voyage_img} className='w-full h-full'/>
+            <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
+              <span>April 16th 2020</span>
+              <text>The Mountains</text>
+              <span className='pb-[16px]'>by John Appleseed</span>
+              <Divider color='grey' className='pb-[20px]'/>
+
+              <div className='flex flex-row justify-between'>
+                <button>READ STORY</button>
+                <Image src={arrow} className='h-[15px]'/>
+              </div>
+            </div>
+          </Grid.Col><Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left'>
+            <Image src={voyage_img} className='w-full h-full'/>
+            <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
+              <span>April 16th 2020</span>
+              <text>The Mountains</text>
+              <span className='pb-[16px]'>by John Appleseed</span>
+              <Divider color='grey' className='pb-[20px]'/>
+
+              <div className='flex flex-row justify-between'>
+                <button>READ STORY</button>
+                <Image src={arrow} className='h-[15px]'/>
+              </div>
+            </div>
+          </Grid.Col>
+          <Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left'>
+            <Image src={voyage_img} className='w-full h-full'/>
+            <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
+              <span>April 16th 2020</span>
+              <text>The Mountains</text>
+              <span className='pb-[16px]'>by John Appleseed</span>
+              <Divider color='grey' className='pb-[20px]'/>
+
+              <div className='flex flex-row justify-between'>
+                <button>READ STORY</button>
+                <Image src={arrow} className='h-[15px]'/>
+              </div>
+            </div>
+          </Grid.Col><Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left'>
+            <Image src={voyage_img} className='w-full h-full'/>
+            <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
+              <span>April 16th 2020</span>
+              <text>The Mountains</text>
+              <span className='pb-[16px]'>by John Appleseed</span>
+              <Divider color='grey' className='pb-[20px]'/>
+
+              <div className='flex flex-row justify-between'>
+                <button>READ STORY</button>
+                <Image src={arrow} className='h-[15px]'/>
+              </div>
+            </div>
+          </Grid.Col><Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left'>
+            <Image src={voyage_img} className='w-full h-full'/>
+            <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
+              <span>April 16th 2020</span>
+              <text>The Mountains</text>
+              <span className='pb-[16px]'>by John Appleseed</span>
+              <Divider color='grey' className='pb-[20px]'/>
+
+              <div className='flex flex-row justify-between'>
+                <button>READ STORY</button>
+                <Image src={arrow} className='h-[15px]'/>
+              </div>
+            </div>
+          </Grid.Col><Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left'>
+            <Image src={voyage_img} className='w-full h-full'/>
+            <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
+              <span>April 16th 2020</span>
+              <text>The Mountains</text>
+              <span className='pb-[16px]'>by John Appleseed</span>
+              <Divider color='grey' className='pb-[20px]'/>
+
+              <div className='flex flex-row justify-between'>
+                <button>READ STORY</button>
+                <Image src={arrow} className='h-[15px]'/>
+              </div>
+            </div>
+          </Grid.Col><Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left'>
+            <Image src={voyage_img} className='w-full h-full'/>
+            <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
+              <span>April 16th 2020</span>
+              <text>The Mountains</text>
+              <span className='pb-[16px]'>by John Appleseed</span>
+              <Divider color='grey' className='pb-[20px]'/>
+
+              <div className='flex flex-row justify-between'>
+                <button>READ STORY</button>
+                <Image src={arrow} className='h-[15px]'/>
+              </div>
+            </div>
+          </Grid.Col><Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left'>
+            <Image src={voyage_img} className='w-full h-full'/>
+            <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
+              <span>April 16th 2020</span>
+              <text>The Mountains</text>
+              <span className='pb-[16px]'>by John Appleseed</span>
+              <Divider color='grey' className='pb-[20px]'/>
+
+              <div className='flex flex-row justify-between'>
+                <button>READ STORY</button>
+                <Image src={arrow} className='h-[15px]'/>
+              </div>
+            </div>
+          </Grid.Col><Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left'>
+            <Image src={voyage_img} className='w-full h-full'/>
+            <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
+              <span>April 16th 2020</span>
+              <text>The Mountains</text>
+              <span className='pb-[16px]'>by John Appleseed</span>
+              <Divider color='grey' className='pb-[20px]'/>
+
+              <div className='flex flex-row justify-between'>
+                <button>READ STORY</button>
+                <Image src={arrow} className='h-[15px]'/>
+              </div>
+            </div>
+          </Grid.Col><Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left'>
+            <Image src={voyage_img} className='w-full h-full'/>
+            <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
+              <span>April 16th 2020</span>
+              <text>The Mountains</text>
+              <span className='pb-[16px]'>by John Appleseed</span>
+              <Divider color='grey' className='pb-[20px]'/>
+
+              <div className='flex flex-row justify-between'>
+                <button>READ STORY</button>
+                <Image src={arrow} className='h-[15px]'/>
+              </div>
+            </div>
+          </Grid.Col><Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left'>
+            <Image src={voyage_img} className='w-full h-full'/>
+            <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
+              <span>April 16th 2020</span>
+              <text>The Mountains</text>
+              <span className='pb-[16px]'>by John Appleseed</span>
+              <Divider color='grey' className='pb-[20px]'/>
+
+              <div className='flex flex-row justify-between'>
+                <button>READ STORY</button>
+                <Image src={arrow} className='h-[15px]'/>
+              </div>
+            </div>
+          </Grid.Col><Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left'>
+            <Image src={voyage_img} className='w-full h-full'/>
+            <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
+              <span>April 16th 2020</span>
+              <text>The Mountains</text>
+              <span className='pb-[16px]'>by John Appleseed</span>
+              <Divider color='grey' className='pb-[20px]'/>
+
+              <div className='flex flex-row justify-between'>
+                <button>READ STORY</button>
+                <Image src={arrow} className='h-[15px]'/>
+              </div>
+            </div>
+          </Grid.Col><Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left'>
+            <Image src={voyage_img} className='w-full h-full'/>
+            <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
+              <span>April 16th 2020</span>
+              <text>The Mountains</text>
+              <span className='pb-[16px]'>by John Appleseed</span>
+              <Divider color='grey' className='pb-[20px]'/>
+
+              <div className='flex flex-row justify-between'>
+                <button>READ STORY</button>
+                <Image src={arrow} className='h-[15px]'/>
+              </div>
+            </div>
+          </Grid.Col><Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left'>
+            <Image src={voyage_img} className='w-full h-full'/>
+            <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
+              <span>April 16th 2020</span>
+              <text>The Mountains</text>
+              <span className='pb-[16px]'>by John Appleseed</span>
+              <Divider color='grey' className='pb-[20px]'/>
+
+              <div className='flex flex-row justify-between'>
+                <button>READ STORY</button>
+                <Image src={arrow} className='h-[15px]'/>
+              </div>
+            </div>
+          </Grid.Col><Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left'>
+            <Image src={voyage_img} className='w-full h-full'/>
+            <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
+              <span>April 16th 2020</span>
+              <text>The Mountains</text>
+              <span className='pb-[16px]'>by John Appleseed</span>
+              <Divider color='grey' className='pb-[20px]'/>
+
+              <div className='flex flex-row justify-between'>
+                <button>READ STORY</button>
+                <Image src={arrow} className='h-[15px]'/>
+              </div>
+            </div>
+          </Grid.Col>
+        
+        
           
       </Grid>
       </section>

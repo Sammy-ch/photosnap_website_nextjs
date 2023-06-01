@@ -15,6 +15,7 @@ import embed from "public/assets/features/desktop/embed.svg";
 import limit from "public/assets/features/desktop/no-limit.svg";
 import responsive from "public/assets/features/desktop/responsive.svg";
 import { Grid } from '@mantine/core';
+import { motion } from 'framer-motion';
 
 const Home = () => {
   return (
@@ -68,31 +69,26 @@ const Home = () => {
     </section>
 
 
-    {/* <section className='story-cards'>
-      <div className='card-img hover:translate-y-[-24px]'><Image src={mountain} className='w-full'/></div>
-      <div className='card-img'><Image src={sunset_img} className='w-full' /></div>
-      <div className='card-img'><Image src={voyage_img} className='w-full'/></div>
-      <div className='card-img'><Image src={arch_img} className='w-full'/></div>
-    </section> */}
-
-
     <Grid gutter={0} className='home_story'>
-          <Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left'>
-            <Image src={mountain} className='w-full'/>
-            <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
-             
-              <text>The Mountains</text>
-              <span className='pb-[16px]'>by John Appleseed</span>
-              <Divider color='grey' className='pb-[20px]'/>
 
-              <div className='flex flex-row justify-between'>
-                <button>READ STORY</button>
-                <Image src={arrow} className='h-[15px]'/>
+
+            <Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left '>
+              <Image src={mountain} className='w-full h-full '/>
+              <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
+                <text>The Mountains</text>
+                <span className='pb-[16px]'>by John Appleseed</span>
+                <Divider color='grey' className='pb-[20px]'/>
+                <div className='flex flex-row justify-between'>
+                  <button>READ STORY</button>
+                  <Image src={arrow} className='h-[15px]'/>
+                </div>
               </div>
-            </div>
-          </Grid.Col>
+            </Grid.Col>
+
+
+
           <Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left'>
-            <Image src={sunset_img} className='w-full'/>
+            <Image src={sunset_img} className='w-full h-full '/>
             <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
              
               <text>Sunset Cityscapes</text>
@@ -106,7 +102,7 @@ const Home = () => {
             </div>
           </Grid.Col>
           <Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left'>
-            <Image src={voyage_img} className='w-full'/>
+            <Image src={voyage_img} className='w-full h-full '/>
             <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
              
               <text>18 Days Voyage</text>
@@ -120,7 +116,7 @@ const Home = () => {
             </div>
           </Grid.Col>
           <Grid.Col sm={12} md={6} lg={3} className='hover:translate-y-[-24px] text-left'>
-            <Image src={arch_img} className='w-full'/>
+            <Image src={arch_img} className='w-full h-full '/>
             <div className='flex flex-col text-white relative bottom-40 px-[40px]'>
               
               <text>Architecturals</text>
